@@ -38,6 +38,8 @@ class Artist extends Entity{
         $resultat->execute();
 		// ajouter la gestion des exceptions
     }
+
+
 	// trouve un artiste grace à son id passé en paramètre
 	// renvoie un objet Artiste
     public static function findById($id)
